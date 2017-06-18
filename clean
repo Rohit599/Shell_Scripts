@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+#Script to clean log files
+#Run as root, of course.
+LOG_DiR=/var/log
+# Variables are better than hard-coded values.
+cd $LOG_DiR
+cat /dev/null > messages
+cat /dev/null > wtmp
+
+echo "Logs cleane up"
+exit
+
+
