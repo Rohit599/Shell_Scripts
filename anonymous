@@ -1,0 +1,23 @@
+#To become anonymous without changing your actual ip address.
+#Prerequisites
+#1. Firt install tor browser with all its packages.If stuck Goto: https://www.youtube.com/watch?v=Biuj3cW2lJc
+#2. Goto /etc/ and type nano proxychains.
+#3. At the bottom add socks5 with same address as that of socks4.
+#4. Save and exit.
+
+#!/bin/sh
+#
+#Script to become anonymous without changing your ip address
+#
+service tor start
+#Syntax: proxychains webbrowsername
+proxychains firefox
+
+
+
+# You can now goto www.duckduckgo.com and type in search bar "check dns leak test".Open the dnsleak link and see your fake ip addresss.
+
+
+
+
+#Enjoy!!
