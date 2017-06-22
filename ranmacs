@@ -1,0 +1,9 @@
+#!/bin/sh
+#Script to change the current mac address to random of your system temporary
+#
+#To see current mac Address
+macchanger -s eth0
+#Change Mac address to random -r
+macchanger -r eth0
+
+exit
