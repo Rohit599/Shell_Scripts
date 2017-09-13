@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+#Using nmap to perform UDP Scan
+#nmap -sU <ip address to be scanned>
+nmap -sU $1
+exit
