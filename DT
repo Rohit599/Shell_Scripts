@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Script to show time and date, lists all logged-in users, and gives the system uptime and saves this information to a log file
+#
+echo  "Time and date:"
+date
+echo "All logged-in users are :"
+finger
+echo "System uptime information"
+uptime
+
+bash DT > /var/log/a.log
+
+exit
+
