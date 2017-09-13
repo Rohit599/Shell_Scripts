@@ -1,0 +1,7 @@
+#!/bin/sh
+# nmap -O <website to scan>
+
+nmap -O $1
+
+exit
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+#nmap -sT <website to scan>
+
+nmap -sT espn.com
+exit
