@@ -2,5 +2,5 @@
 #
 #nmap -sT <website to scan>
 
-nmap -sT $1
-exit
+ nmap -sT $1
+ exit
