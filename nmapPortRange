@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+#Scanning a ip address for a PORT RANGE
+# $1- first argument for ip address $2 port Range in n1-n2 format
+nmap $1 -p$2
+
+exit
