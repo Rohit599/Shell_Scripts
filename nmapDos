@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+#PERFORM DOS ATTACK USING NMAP BY SENDING PACKETS AT A HIGH SPEED
+#nmap -sS -T5 <victim website>
+
+nmap -sS -T5 $1
+
+exit 
