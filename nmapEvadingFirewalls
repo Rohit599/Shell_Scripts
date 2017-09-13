@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+#Evade Firewall by suppressing nmap's default ping
+#nmap -sS -P0 <ip address to be scanned>
+nmap -sS -P0 $1
+exit
