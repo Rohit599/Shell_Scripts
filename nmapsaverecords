@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+#To save output of a scan to a file
+#nmap -sS <ip address> -oN <name of file>
+nmap -sS $1 -oN $2
+exit
