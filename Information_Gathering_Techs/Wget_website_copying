@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+#Syntax: wget <website name>
+wget $1
+
+exit
