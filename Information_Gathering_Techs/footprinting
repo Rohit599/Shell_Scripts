@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+#This scripts requires WhatWeb tool for footprinting on website.
+#
+#Syntax: whatweb <website to be footprinted>
+
+whatweb $1
+exit
+
