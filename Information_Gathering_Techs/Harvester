@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+#Harvesting e-mail lists and usernames from websites
+#It is a python script, So python is mandatory to be installed on the system
+#Install theHarvester Tool then.
+#First reach the directory where theHarvester is installed and locate Harvester.py and give it execution permissions
+#Syntax:./theHarvester -d <website to be scanned for users> -l <no. to be scanned> -b <extract from which search engine>
+#
+./theHarvester -d $1 -l $2 -b $3
+#
+exit

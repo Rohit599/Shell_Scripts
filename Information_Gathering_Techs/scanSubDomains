@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+#Scanning websites for its subdomains using Fierce
+#Fierce is a perl Script. therefore please install perl before running this script
+#
+#fierce -dns <domain>
+fierce -dns $1
+./fierce.pl -dns $1
+#
+exit
